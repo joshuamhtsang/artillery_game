@@ -1,13 +1,8 @@
-package main
+package gameboard
 
 import (
 	"fmt"
 )
-
-type boardSquare struct {
-	team         string
-	hasArtillery bool
-}
 
 func main() {
 	fmt.Println("Attempt to create 2D game board.")
