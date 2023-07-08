@@ -4,13 +4,13 @@ import (
 	"fmt"
 )
 
+type boardSquare struct {
+	team         string
+	hasArtillery bool
+}
+
 func main() {
 	fmt.Println("Attempt to create 2D game board.")
-
-	type boardSquare struct {
-		team         string
-		hasArtillery bool
-	}
 
 	var gameBoard [8][8]boardSquare
 	fmt.Println(gameBoard)
